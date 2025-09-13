@@ -1,0 +1,11 @@
+spring:
+  config:
+    import: optional:configserver:http://localhost:8888
+  application:
+    name: discovery-service
+
+
+# spring -> config -> import parametresi konfigürasyonu nereden alaca??m?z? belirtiyor. optional sayesinde e?er configserver bulunamazsa
+# uygulaman?n çökmesi engelleniyor
+
+
